@@ -132,7 +132,7 @@
                 GUI.renderShit = frame.isOpen();
                 if (GUI.renderShit && !Module.getModule(Array.class).getState()) {
                     GL11.glPushMatrix();
-                    Minecraft.getMinecraft().fontRendererObj.drawString("Arraylist is disabled!", GUI.arrayXPos + 2, GUI.arrayYPos + 16, -1);
+                    Minecraft.getMinecraft().fontRendererObj.drawString("ArrayListen er slået fra!", GUI.arrayXPos + 2, GUI.arrayYPos + 16, -1);
                     GL11.glPopMatrix();
                 }
                 frame.renderFrame();
@@ -169,7 +169,7 @@
                 if (frame.isOpen()) {
                     GL11.glPushMatrix();
                     if (SkilledClient.getInstance().getFriendManager().getFriendsList().isEmpty()) {
-                        Minecraft.getMinecraft().fontRendererObj.drawString("You dont have friends!", frame.getX() + 2, frame.getY() + 15, -1);
+                        Minecraft.getMinecraft().fontRendererObj.drawString("Du har ingen venner din spasser", frame.getX() + 2, frame.getY() + 15, -1);
                     }
                     final Iterator<String> i = SkilledClient.getInstance().getFriendManager().getFriendsList().iterator();
                     int y = 18;
