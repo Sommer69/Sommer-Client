@@ -1,15 +1,5 @@
-# Skilled-Client-v3
-I added a few more things.
+# Sommer-Client
 
-- Reach/Velocity: ignore water, lava, poison effect and etc.
+Dev-Log 0.1:
+Ghost Clienten er lige nu i Alpha. Den er ikke lavet, færdig, og der vil følgende komme opdateringer.
 
-- Aimassist: ignore water, Lava, work only onGround and sprinting.
-
-- Reach option: Weapon, OnlySpeed.
-
-- Velocity options: Weapon, Only Clicking, Sprinting and "OnlyGround" (ignore if you are on air).
-
-
-
-
-☮ all credits to the skilled. ✌
