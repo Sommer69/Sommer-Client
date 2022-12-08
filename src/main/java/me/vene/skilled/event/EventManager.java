@@ -191,6 +191,6 @@
      
      static {
          EventManager.timerUtil = new TimerUtil();
-         EventManager.lastAttackedEntityName = StringRegistry.register("None.");
+         EventManager.lastAttackedEntityName = StringRegistry.register("Ingen.");
      }
  }
