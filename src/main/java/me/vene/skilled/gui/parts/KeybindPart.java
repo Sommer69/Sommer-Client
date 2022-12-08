@@ -32,7 +32,7 @@ public class KeybindPart extends Component
     public void render() {
         Gui.drawRect(this.parent.parent.getX() + 1, this.parent.parent.getY() - 2 + this.offset, this.parent.parent.getX() - 2 + this.parent.parent.getWidth(), this.parent.parent.getY() + this.offset + 12, new Color(35, 35, 35, 230).getRGB());
         GL11.glPushMatrix();
-        Minecraft.getMinecraft().fontRendererObj.drawString(this.binding ? "Press a key..." : ("Bind: " + Keyboard.getKeyName(this.parent.mod.getKey())), this.parent.parent.getX() + this.parent.parent.getWidth() / 2 - Minecraft.getMinecraft().fontRendererObj.getStringWidth(this.binding ? "Press a key..." : ("Bind: " + Keyboard.getKeyName(this.parent.mod.getKey()))) / 2, this.parent.parent.getY() + this.offset + 1, -1);
+        Minecraft.getMinecraft().fontRendererObj.drawString(this.binding ? "Tryk på en tast" : ("Bind: " + Keyboard.getKeyName(this.parent.mod.getKey())), this.parent.parent.getX() + this.parent.parent.getWidth() / 2 - Minecraft.getMinecraft().fontRendererObj.getStringWidth(this.binding ? "Tryk på en knap" : ("Bind: " + Keyboard.getKeyName(this.parent.mod.getKey()))) / 2, this.parent.parent.getY() + this.offset + 1, -1);
         GL11.glPopMatrix();
     }
     
